@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(230, 133, 0);
+}
+p {
+  color: magenta;
+}
+li {
+  list-style: decimal;
+  margin-bottom: 4rem;
+  text-align: right;
+}
+.home {
+  text-align: left;
+}
+.home:hover {
+  text-align: right;
+}
+.about-me {
+  text-align: center;
+}
+.about-me:hover {
+  text-align: left;
+}
+.work {
+  text-align: right;
+}
+.work:hover {
+  text-align: left;
+}
+.skills {
+  text-align: center;
+}
+.skills:hover {
+  text-align: right;
+}
+.contact {
+  text-align: left;
+}
+.contact:hover {
+  text-align: right;
+}
+.skills:hover {
+  text-align: right;
+}
+h1 {
+  border-top: 1rem groove rgb(0, 255, 245);
+  font-family: sans-serif;
+  font-variant: small-caps;  
+}
+a {
+  text-decoration: none;
+  color: crimson;
+}
+nav a {
+  text-decoration: line-through;
+}
+.hola:hover{
+  color: darkmagenta;
+}
+article p {
+  text-decoration: line-through;
+}
+article a {
+  color: slateblue;
+  text-decoration: line-through;
+}
+article li {
+  text-align: left;
+}
+article li a:hover {
+  text-decoration: none;
+}
+footer {
+  background-color: rgba(46, 71, 79, 0.3);
+  border-top: 1rem solid rgba(46, 71, 79, 0.3);
+  border-bottom: 1rem solid rgba(46, 71, 79, 0.3);
+  border-right: 0.25rem dotted rgba(46, 71, 79, 0.6);
+  border-left: 0.25rem dotted rgba(46, 71, 79, 0.6);
+  padding: 1rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  font-family: monospace;
+}
